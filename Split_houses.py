@@ -14,6 +14,7 @@ for i,j in enumerate(s):
         if temp > 0:
             c.append(temp)
             temp = 0
+
 if len(c) == 0 or max(c) == 1:
     print('YES')
     print(''.join(arr))
